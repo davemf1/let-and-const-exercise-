@@ -1,0 +1,11 @@
+What is the difference between var and let?
+Variables declared by let are only available inside the block where they're defined. Variables declared by var are available throughout the function in which they're declared.
+
+What is the difference between var and const?
+const creates "constant" variables that cannot be reassigned another value.
+
+What is the difference between let and const?
+`const` is a signal that the identifier won't be reassigned. `let` is a signal that the variable may be reassigned, such as a counter in a loop, or a value swap in an algorithm. 
+
+What is hoisting?
+Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution
